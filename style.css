@@ -31,7 +31,6 @@ canvas {
     z-index: 1;
     width: 40%;
     height: 60%;
-    
 }
 
 a{
@@ -41,7 +40,7 @@ a{
 }
 
 a:hover{
-    color: rgb(0, 0, 255);
+    color: rgb(0, 110, 255);
 }
 
 #h1{
@@ -49,7 +48,6 @@ a:hover{
     font-size: 15px;
     line-height: 20px;
     text-align: left;
-    
 }
 
 #h2{
@@ -57,5 +55,19 @@ a:hover{
     font-size: 17px;
     line-height: 20px;
     text-align: left;
+}
+
+@media only screen and (max-width: 380px){
+    #h1, #h2{
+        line-height: 15px;
+    }
+        
+    #h1{
+        font-size: 13px;
+    }
     
+    #h2{
+        font-size: 14px;
+        font-style: italic;
+    }
 }
