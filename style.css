@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    margin:auto;
+    position: relative;
+    z-index: 0;
+}
+
+#intro{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    width: 40%;
+    height: 40%;
+    
+}
+
+#intro p{
+    font-family: 'Roboto', sans-serif;
+}
