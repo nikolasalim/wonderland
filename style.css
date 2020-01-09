@@ -20,19 +20,42 @@ canvas {
 }
 
 #intro{
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    text-align: center;
+    text-align: left;
     justify-content: center;
+    margin: auto;
     background-color: transparent;
     color: white;
     position: absolute;
     z-index: 1;
     width: 40%;
-    height: 40%;
+    height: 60%;
     
 }
 
-#intro p{
+a{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(0, 0, 255);
+}
+
+#h1{
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    
+}
+
+#h2{
+    font-family: 'Baskervville', serif;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: left;
+    
 }
